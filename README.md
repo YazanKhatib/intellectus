@@ -1,0 +1,3 @@
+# Intellectus
+
+Intellectus company profile
