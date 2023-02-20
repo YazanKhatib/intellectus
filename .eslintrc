@@ -1,0 +1,12 @@
+{
+  "env": {
+    "amd": true,
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "next", "next/core-web-vitals"],
+  "rules": {
+    "no-undef": 0,
+    "@next/next/no-img-element": 0
+  }
+}

@@ -1,0 +1,11 @@
+.process {
+  height: 300px;
+  background-color: white;
+}
+
+.process h1 {
+  text-align: center;
+  color: var(--primary);
+  font-family: var(--M);
+  font-size: var(--xl);
+}

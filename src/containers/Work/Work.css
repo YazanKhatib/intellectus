@@ -1,0 +1,33 @@
+.work {
+  background-color: var(--primary);
+  font-family: var(--M);
+  height: 300px;
+}
+
+.work .left {
+  width: 40%;
+}
+
+.work h1 {
+  color: white;
+  font-size: var(--xl);
+}
+
+.work h2 {
+  color: white;
+  font-size: var(--md);
+}
+
+.work p {
+  color: white;
+}
+
+.work .btn {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: 1px solid white;
+  color: white;
+  font-family: var(--M);
+  border-radius: 15px;
+  background-color: var(--primary);
+}
