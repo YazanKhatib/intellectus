@@ -36,10 +36,4 @@ export const data = [
     title: 'Development & IT Operations',
     description: 'Lorem Ipsum is simply dummy text the printing and beenthndustry sstandard dummy text ever since.',
   },
-  {
-    check: true,
-    image: '/svg/services/1.svg',
-    title: 'System Integration',
-    description: 'Lorem Ipsum is simply dummy text the printing and beenthndustry sstandard dummy text ever since.',
-  },
 ];

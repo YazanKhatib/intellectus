@@ -22,9 +22,11 @@ export const Landing: React.FC = () => {
           </button>
         </div>
       </div>
+
       <h2 className="mb-8">
-        <span className="font-morebi text-white border-b text-2xl pb-3">What is your challenge ?</span>
+        <span className="font-morebi text-white border-b border-white text-2xl pb-3">What is your challenge ?</span>
       </h2>
+ 
     </section>
   );
 };

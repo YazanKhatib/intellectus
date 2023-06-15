@@ -1,26 +1,26 @@
 export const Footer: React.FC = () => {
   return (
     <footer className="max-w-default m-auto flex flex-col text-white font-morebi bg-primary pt-12">
-      <div className="flex-col lg:flex-row flex justify-around">
-        <div className="flex justify-center lg:justify-start">
+      <div className="flex-col lg:flex-row flex justify-around 2xl:justify-between">
+        <div className="flex justify-center xl:justify-start">
           <img width="120" src="/images/Logo.png" alt="logo" />
         </div>
 
-        <div className="flex flex-col justify-center">
-          <h1 className="text-center font-morebi text-xl text-secondary mb-6">Contact Us:</h1>
+        <div className="flex flex-col justify-center mb-6 lg:mb-4">
+          <h1 className="font-morebi text-xl text-secondary lg:mb-6 invisible lg:visible">Contact Us:</h1>
           <div className="flex mb-6 m-auto">
             <img className="mr-2" width="25px" height="20px" src="svg/footer/email.svg" alt="email" />
-            <p>Info@Intellectus.works</p>
+            <p className="text-lg">Info@Intellectus.works</p>
           </div>
           <div className="flex m-auto lg:m-0">
             <img className="mr-2" width="25px" height="20px" src="svg/footer/call.svg" alt="call" />
-            <p>+963 941 738 664</p>
+            <p className="text-lg">+971 5444 24 657</p>
           </div>
         </div>
 
         <div>
           <h1 className="font-morebi text-xl text-secondary mb-6 hidden lg:block">Follow Us:</h1>
-          <div className="flex justify-around">
+          <div className="flex justify-around w-2/5 lg:w-full m-auto">
             <a href="">
               <img className="mr-2" width="35px" src="svg/footer/linkedin.svg" alt="linkedin" />
             </a>
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="text-center text-xl my-12 pt-10 border-t border-white border-opacity-20">
-        <p>@2021-Intellectus. All Rights Receved</p>
+        <p>@2023-Intellectus. All Rights Receved</p>
       </div>
     </footer>
   );
