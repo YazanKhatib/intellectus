@@ -6,7 +6,7 @@ import { data } from "./data";
 export const Work: React.FC = () => {
   return (
     <section id="ourwork" className="font-morebi py-16">
-      <div className="mx-auto w-full px-6 md:w-4/5 lg:px-0">
+      <div className="max-w-default mx-auto w-full px-6 md:w-4/5 lg:px-0">
         <div className="flex items-center justify-between">
           <h1 className="mb-8 text-3xl font-bold text-white">Our work</h1>
           <h2 className="text-button z-10 hidden cursor-pointer text-2xl font-medium lg:block">
