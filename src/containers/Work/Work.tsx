@@ -1,18 +1,40 @@
+import * as React from "react";
+import Card from "./card";
+import Link from "next/link";
+import { data } from "./data";
+
 export const Work: React.FC = () => {
   return (
-    <section className="work bg-primary py-16">
-      <div className="flex m-auto max-w-default justify-between w-4/5">
-        <div className="w-2/5">
-          <h2 className="text-white">Our Work</h2>
-          <h1 className="text-white">Timepiece</h1>
-          <p className="text-white mb-8">
-            Lorem Ipsum is simply dummy text of the printi and beenthndustry sstandard dummy text ever since the when
-            anunknown
-          </p>
-          <button className="btn text-white rounded-xl border-white border w-full py-2">Check Full Project</button>
+    <section id="ourwork" className="font-morebi py-16">
+      <div className="mx-auto w-full px-6 md:w-4/5 lg:px-0">
+        <div className="flex items-center justify-between">
+          <h1 className="mb-8 text-3xl font-bold text-white">Our work</h1>
+          <h2 className="text-button z-10 hidden cursor-pointer text-2xl font-medium lg:block">
+            <Link href="/portfolio">
+              <a className="mr-3 cursor-pointer text-white">See all projects</a>
+            </Link>
+          </h2>
         </div>
+
+        {data.map(({ image, title, description, active, website }, key) => (
+          <Card
+            website={website}
+            variant="ourwork"
+            active={active}
+            key={key}
+            index={key}
+            image={image}
+            title={title}
+            description={description}
+          />
+        ))}
+
+        <h2 className="text-button absolute bottom-12 cursor-pointer text-sm font-medium lg:hidden">
+          <Link href="/portfolio">
+            <a className="z-50 mr-3 cursor-pointer">See all projects</a>
+          </Link>
+        </h2>
       </div>
-      <div className="right"></div>
     </section>
   );
 };

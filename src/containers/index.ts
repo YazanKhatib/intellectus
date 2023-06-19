@@ -5,4 +5,4 @@ export * from './Process/process';
 export * from './Homepage/services';
 export * from './Motivation/motivation';
 export * from './Homepage/testimonials';
-export * from './Work/Work';
+export * from './Work/work';

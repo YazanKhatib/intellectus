@@ -14,6 +14,9 @@ module.exports = {
       maxWidth: {
         default: '1366px',
       },
+      backgroundImage: {
+        lid: "url(/images/Lid.png)",
+      },
     },
   },
   plugins: [],
