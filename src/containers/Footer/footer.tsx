@@ -3,7 +3,7 @@ export const Footer: React.FC = () => {
     <footer className="max-w-default m-auto flex flex-col text-white font-morebi bg-primary pt-12">
       <div className="flex-col lg:flex-row flex justify-around 2xl:justify-between">
         <div className="flex justify-center xl:justify-start">
-          <img width="120" src="/images/Logo.png" alt="logo" />
+          <img width="120" src="/images/logo.png" alt="logo" />
         </div>
 
         <div className="flex flex-col justify-center mb-6 lg:mb-4">
