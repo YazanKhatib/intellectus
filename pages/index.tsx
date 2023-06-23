@@ -1,4 +1,4 @@
-import { Header, Landing, Process, Services, Motivation, Testimonials, Footer } from '../src/containers';
+import { Header, Landing, Process, Services, Motivation, Testimonials, Footer, Work } from '../src/containers';
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       <Services />
       <Motivation />
       <Process />
-      {/* <Work /> */}
+      <Work />
       <Testimonials />
       <Footer />
     </div>
