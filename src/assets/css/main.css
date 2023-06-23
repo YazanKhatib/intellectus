@@ -3,28 +3,28 @@
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
-    @apply m-0 p-0;
-  }
+    html,
+    body {
+        @apply m-0 p-0;
+    }
 }
 
 @font-face {
-  font-family: 'Morebi Rounded Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Morebi Rounded Regular'),
-    url('../../assets/fonts/GT-CANARY\ -\ MorebiRounded-Regular.woff') format('truetype');
+    font-family: 'Morebi Rounded Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Morebi Rounded Regular'),
+        url('../../assets/fonts/GT-CANARY\ -\ MorebiRounded-Regular.woff') format('truetype');
 }
 
 @font-face {
-  font-family: 'Argentum Sans Medium';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Argentum Sans Medium'), url('../../assets/fonts/argentum-sans.medium.ttf') format('woff');
+    font-family: 'Argentum Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Argentum Sans Medium'), url('../../assets/fonts/argentum-sans.medium.ttf') format('woff');
 }
 
 .page-container {
-  background-color: #0c0c30;
-  width: 100%;
+    background-color: #0c0c30;
+    width: 100%;
 }

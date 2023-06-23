@@ -1,20 +1,20 @@
 :root {
-  /* fonts */
-  --M: 'Morebi Rounded Regular';
+    /* fonts */
+    --M: 'Morebi Rounded Regular';
 
-  /* font sizes */
-  --xl: 50px;
-  --lg: 40px;
-  --md: 20px;
-  --sm: 18px;
-  --xs: 16px;
-  --base: 24px;
+    /* font sizes */
+    --xl: 50px;
+    --lg: 40px;
+    --md: 20px;
+    --sm: 18px;
+    --xs: 16px;
+    --base: 24px;
 
-  /* screen size */
-  --maxWidth: 1366px;
+    /* screen size */
+    --maxWidth: 1366px;
 
-  /* colors */
-  --primary: #0c0c30;
-  --secondary: #5bd3c7;
-  --gray: #AAA3A3;
+    /* colors */
+    --primary: #0c0c30;
+    --secondary: #5bd3c7;
+    --gray: #aaa3a3;
 }

@@ -6,6 +6,6 @@ import '../src/assets/css/main.css';
 import '../src/assets/css/system.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+    return <Component {...pageProps} />;
 }
 export default MyApp;
