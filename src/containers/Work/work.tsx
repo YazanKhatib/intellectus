@@ -29,7 +29,7 @@ export const Work: React.FC = () => {
                     />
                 ))}
 
-                <h2 className="text-button absolute bottom-12 cursor-pointer text-sm font-medium lg:hidden">
+                <h2 className="text-button bottom-12 hidden cursor-pointer text-sm font-medium lg:block">
                     <Link href="/portfolio">
                         <a className="z-50 mr-3 cursor-pointer">See all projects</a>
                     </Link>

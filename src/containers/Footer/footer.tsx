@@ -2,19 +2,23 @@ export const Footer: React.FC = () => {
     return (
         <footer className="m-auto flex max-w-default flex-col bg-primary pt-12 font-morebi text-white">
             <div className="flex flex-col justify-around lg:flex-row 2xl:justify-between">
-                <div className="flex justify-center xl:justify-start">
-                    <img width="120" src="/images/logo.png" alt="logo" />
+                <div className="mb-12 flex justify-center object-none text-center lg:mb-0 xl:justify-start">
+                    <img className="h-28 w-28" src="/images/logo.png" alt="logo" />
                 </div>
 
-                <div className="mb-6 flex flex-col justify-center lg:mb-4">
-                    <h1 className="invisible font-morebi text-xl text-secondary lg:visible lg:mb-6">Contact Us:</h1>
-                    <div className="m-auto mb-6 flex">
-                        <img className="mr-2" width="25px" height="20px" src="svg/footer/email.svg" alt="email" />
-                        <p className="text-lg">Info@Intellectus.works</p>
-                    </div>
-                    <div className="m-auto flex lg:m-0">
-                        <img className="mr-2" width="25px" height="20px" src="svg/footer/call.svg" alt="call" />
-                        <p className="text-lg">+971 5444 24 657</p>
+                <div className="hidden flex-col justify-center lg:flex">
+                    <h1 className="font-morebi text-xl text-secondary lg:mb-6">Contact Us:</h1>
+
+                    <div className="flex items-center justify-center">
+                        <div className="mr-4 flex flex-col">
+                            <img width="25px" height="20px" src="svg/footer/call.svg" alt="call" className="mb-4" />
+                            <img width="25px" height="20px" src="svg/footer/email.svg" alt="email" />
+                        </div>
+
+                        <div className="flex flex-col justify-center text-lg">
+                            <p className="mb-4">+971 5444 24 657</p>
+                            <p>yazankhatib97@gmail.com</p>
+                        </div>
                     </div>
                 </div>
 
@@ -45,7 +49,7 @@ export const Footer: React.FC = () => {
                 </div>
             </div>
 
-            <div className="my-12 border-t border-white border-opacity-20 pt-10 text-center text-xl">
+            <div className="my-8 border-t border-white border-opacity-20 pt-10 text-center text-xl">
                 <p>@2023-Intellectus. All Rights Receved</p>
             </div>
         </footer>
