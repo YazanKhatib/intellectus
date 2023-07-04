@@ -23,7 +23,7 @@ export const Testimonials: React.FC = () => {
     };
 
     return (
-        <section className="testimonials bg-white py-16">
+        <section id="testimonials" className="testimonials bg-white py-16">
             <div className="pb-16 text-center font-morebi text-6xl font-bold text-primary">What Client says?</div>
             <div className="container m-auto w-4/5 max-w-default">
                 <div className="innerContainer flex w-full">

@@ -5,7 +5,7 @@ import { data } from './data';
 
 export const Work: React.FC = () => {
     return (
-        <section id="ourwork" className="py-16 font-morebi">
+        <section id="portfolio" className="py-16 font-morebi">
             <div className="mx-auto w-4/5 max-w-default px-6 lg:px-0">
                 <div className="flex items-center justify-between">
                     <h1 className="mb-8 text-3xl font-bold text-white">Our work</h1>

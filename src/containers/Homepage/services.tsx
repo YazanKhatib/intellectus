@@ -9,7 +9,7 @@ interface CardProps {
 
 export const Services: React.FC<myProps> = () => {
     return (
-        <div className="bg-white py-16">
+        <div id="services" className="bg-white py-16">
             <div className="m-auto w-4/5 max-w-default">
                 <div className="flex flex-col flex-wrap justify-between lg:flex-row">
                     {data.map(({ image, title, description }: CardProps, key) => (
